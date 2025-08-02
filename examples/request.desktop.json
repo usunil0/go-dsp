@@ -1,0 +1,39 @@
+{
+  "id": "X4U8pvS9ff",
+  "imp": [
+    {
+      "id": "1",
+      "banner": {
+        "w": 300,
+        "h": 250,
+        "pos": 1,
+        "battr": [1,2,3],
+        "api": [3]
+      },
+      "tagid": "tag123",
+      "bidfloor": 100
+    }
+  ],
+  "site": {
+    "id": "site123",
+    "name": "Example Site",
+    "domain": "example.com",
+    "page": "https://example.com/page",
+    "cat": ["IAB1"],
+    "publisher": {
+      "id": "pub123",
+      "name": "Example Publisher",
+      "domain": "publisher.com"
+    }
+  },
+  "device": {
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)…",
+    "ip": "123.123.123.123",
+    "geo": {"country":"USA"},
+    "devicetype": 2
+  },
+  "user": {"id":"user123"},
+  "at": 2,
+  "bcat": ["IAB2"],
+  "badv": ["badsite.com"]
+}
